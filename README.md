@@ -2,6 +2,25 @@
 
 Turn Pelican Panel into a Progressive Web App (PWA) with install support and push notifications.
 
+## Settings
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/c6aa59ce-0bc8-455b-b8f1-9cebee5b55c2" />
+
+## User Profile Settings
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/b8804d48-cd53-492c-9322-d600676401d6" />
+
+## Android Notifcation
+<img width="600" alt="Screenshot_20260207_193224" src="https://github.com/user-attachments/assets/76e9430c-82f8-4592-afae-a1e2f0f3426f" />
+
+## Android PWA with Notifcaton
+<img width="600" alt="Screenshot_20260207_193203" src="https://github.com/user-attachments/assets/704d2ebc-5270-423f-8a7c-5b1c869148fd" />
+
+## Apple in the PWA
+<img width="300" alt="IMG_4382" src="https://github.com/user-attachments/assets/6491f3ec-7ff8-474b-ae47-7cda42b0b65f" />
+
+## Apple PWA
+<img width="300" alt="IMG_4381" src="https://github.com/user-attachments/assets/ff9778af-3da0-48f1-8fbc-da5341a523be" />
+
+
 ## Highlights
 
 - Installable PWA (desktop + mobile)
@@ -142,6 +161,68 @@ Use **Send Test Push** on the PWA settings page.
 Quick actions are available:
 - In the PWA settings page
 - In the Profile page (PWA tab)
+
+## Install on User Device
+
+### Desktop (Chrome, Edge, Brave)
+
+1. **Open the PWA** in your browser by navigating to the web app URL
+2. **Look for the install prompt** in the address bar:
+   - You'll see an install icon (⊕ or computer monitor icon) on the right side of the address bar
+3. **Click the install icon** or click the three-dot menu (⋮) and select "Install [App Name]"
+4. **Confirm installation** by clicking "Install" in the popup dialog
+5. **Launch the app** from:
+   - Your desktop shortcut
+   - Start menu (Windows)
+   - Applications folder (Mac)
+   - Chrome Apps page (`chrome://apps`)
+
+**Alternative Method:**
+- Click the three-dot menu (⋮) → "Save and Share" → "Install page as app"
+
+---
+
+### Android (Chrome, Samsung Internet, Edge)
+
+1. **Open the PWA** in your mobile browser by visiting the web app URL
+2. **Wait for the install banner** to appear at the bottom of the screen, OR:
+3. **Tap the three-dot menu** (⋮) in the top-right corner
+4. **Select "Install app"** or "Add to Home screen"
+   - On Samsung Internet: Tap "Add page to" → "Home screen"
+5. **Confirm installation** by tapping "Install" in the popup
+6. **Find the app icon** on your home screen or app drawer
+7. **Tap the icon** to launch the PWA in standalone mode
+
+**Note:** The installed PWA will behave like a native app with its own window and icon.
+
+---
+
+### iOS (Safari)
+
+1. **Open the PWA** in Safari by navigating to the web app URL
+   - **Important:** PWAs must be installed through Safari on iOS (not Chrome or other browsers)
+2. **Tap the Share button** (□↑) at the bottom of the screen (or top on iPad)
+3. **Scroll down and tap "Add to Home Screen"**
+4. **Edit the name** if desired (optional)
+5. **Tap "Add"** in the top-right corner
+6. **Find the app icon** on your home screen
+7. **Tap the icon** to launch the PWA
+
+**iOS Limitations:**
+- PWAs on iOS have limited functionality compared to Android/Desktop
+- No background sync or push notifications
+- Must be added through Safari specifically
+
+---
+
+### Tips for All Platforms
+
+- **Check for updates:** PWAs update automatically when you're online
+- **Offline access:** Many PWAs work offline after installation
+- **Uninstalling:** 
+  - **Desktop:** Right-click the app icon → Uninstall
+  - **Android:** Long-press the icon → Uninstall or App info → Uninstall
+  - **iOS:** Long-press the icon → Remove App
 
 ## Troubleshooting
 
